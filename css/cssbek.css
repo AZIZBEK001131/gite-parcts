@@ -1,0 +1,95 @@
+body{
+    background-image: url(https://www.odam.uz/public/upload/media/entries/2019-11/23/2133-entry-2-1574505989.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+  }
+  
+  .header-text{
+    color: aliceblue;
+    font-size: 35px;
+  }
+  
+  .navbar {
+    display: flex;        
+    gap: 30px;            
+    padding: 20px 40px;   
+    margin-left: 370px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .register{
+    padding: 0;
+    margin-left: 490px;
+  }
+  
+  .register-text a{
+    padding: 12px ;
+    background-color: #ea5241;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+    margin: 99px;
+  }
+  
+  .register a:hover {
+    background-color: #ff1900;
+    color: black;
+  }
+  
+  
+  .section{
+    display: flex;
+    align-items: center;
+    margin-left: 550px;
+  }
+  
+  
+  .content {
+    transform: translateY(-10%); 
+    padding: 20px 40px;
+    border-radius: 8px;
+  }
+  
+  .content h3 {
+    margin:0px 130px;
+    font-size: 1.5em;
+    color: white;
+  }
+  
+  .content h1 {
+    margin: 0 0 20px 0;
+    font-size: 40px;
+    color: white;
+  }
+  
+  .btn {
+    padding: 12px 30px;
+    background-color: #ea5241;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+    margin: 99px;
+  }
+  
+  .btn:hover {
+    background-color: #ff1900;
+    color: black;
+  }
+  
+  
